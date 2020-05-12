@@ -1,4 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Arapey");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: '';
@@ -7,7 +12,7 @@ body {
 body h1 {
   font-size: 2em;
   text-align: center;
-  margin-top: 30%;
+  padding-top: 20%;
 }
 
 section {
@@ -16,6 +21,7 @@ section {
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  background-color: #A6A1BA;
 }
 
 section blockquote {
@@ -37,6 +43,7 @@ section img {
   position: absolute;
   height: 50vh;
   width: 50vh;
+  margin-right: 1vh;
 }
 
 section img:nth-of-type(1) {
@@ -53,15 +60,16 @@ section #anna {
 }
 
 .sticky {
-  background: lightgrey;
+  background-color: #967B9D;
 }
 
 #box {
   width: 99vh;
-  height: 99vh;
+  height: 98vh;
   position: absolute;
-  border: 5px solid #b42d2d;
-  margin: auto;
+  border: 6vh solid #b42d2d;
   right: 0;
+  margin-right: 1.6vh;
+  margin-top: 1vh;
 }
 /*# sourceMappingURL=main.css.map */

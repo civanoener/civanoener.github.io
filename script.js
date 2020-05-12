@@ -10,9 +10,9 @@ tl.from('#andrej', 1, {x:200, opacity:0}, "=-1");
 
 tl2.from("#box", 1, {opacity: 0, scale: 0});
 tl2.to("#box", 0.5, {
-    scale:1,
+    scale:1.03,
     borderColor: 'red',
-    borderWidth:7,
+    borderWidth:12,
 });
 
 
