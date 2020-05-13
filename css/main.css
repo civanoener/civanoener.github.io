@@ -26,6 +26,7 @@ body p {
 body a {
   color: white;
   text-decoration: none;
+  background-color: #8071AB;
 }
 
 body ul {
@@ -57,6 +58,10 @@ body header ul li a {
   padding: 0 .6em;
 }
 
+body header ul li {
+  background-color: #8071AB;
+}
+
 body .wrapper {
   padding: 1.5em;
   margin: 0 auto;
@@ -64,7 +69,7 @@ body .wrapper {
 
 section {
   padding: 0em;
-  height: 66vh;
+  height: 100vh;
   position: relative;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
@@ -88,8 +93,8 @@ section blockquote span {
 
 section img {
   position: absolute;
-  height: 33vh;
-  width: 33vh;
+  height: 50vh;
+  width: 50vh;
   margin-right: 1vh;
 }
 
@@ -98,7 +103,7 @@ section img:nth-of-type(1) {
 }
 
 section img:nth-of-type(2) {
-  right: 33vh;
+  right: 50vh;
   top: 50%;
 }
 
@@ -111,8 +116,8 @@ section #anna {
 }
 
 #box {
-  width: 65vh;
-  height: 65vh;
+  width: 99vh;
+  height: 98vh;
   position: absolute;
   border: 6vh solid purple;
   right: 0;

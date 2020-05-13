@@ -31,6 +31,7 @@ body {
     a {
         color: white;
         text-decoration: none;
+        background-color: $forth;
     }
 
     ul {
@@ -53,6 +54,10 @@ body {
             li a {
                 padding: 0 .6em;
             }
+
+            li {
+                background-color: $forth;
+            }
         }
     }
 
@@ -64,7 +69,7 @@ body {
 
 section {
     padding: 0em;
-    height: 66vh;
+    height: 100vh;
     position: relative;
     box-sizing: border-box;
     background-color: $fifth;
@@ -86,8 +91,8 @@ section {
 
     img {
         position: absolute;
-        height: 33vh;
-        width: 33vh;
+        height: 50vh;
+        width: 50vh;
         margin-right: 1vh;
     }
 
@@ -96,7 +101,7 @@ section {
     }
 
     img:nth-of-type(2) {
-        right: 33vh;
+        right: 50vh;
         top: 50%;
     }
 
@@ -111,8 +116,8 @@ section {
 }
 
 #box {
-    width: 65vh;
-    height: 65vh;
+    width: 99vh;
+    height: 98vh;
     position: absolute;
     border: 6vh solid purple;
     right: 0;
