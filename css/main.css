@@ -7,7 +7,7 @@
 body {
   margin: 0;
   color: #F5F5F4;
-  font-family: '';
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 body h1 {
@@ -26,7 +26,6 @@ body p {
 body a {
   color: white;
   text-decoration: none;
-  background-color: #8071AB;
 }
 
 body ul {
@@ -46,6 +45,7 @@ body header {
 
 body header .logo {
   font-weight: bold;
+  background-color: #8071AB;
 }
 
 body header ul {
