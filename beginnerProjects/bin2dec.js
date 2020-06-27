@@ -9,6 +9,5 @@ function calculateFromBinToDec(){
 
     const result = parseInt(inputValue, 2);
     document.getElementById('result').value = result;
-    alert(result)
     return true;
 }
