@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="../images/virus_covid_corona_roll_hygiene_icon_141709.ico" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/coding.css">
+    <script src="borderRadiusPreviewer.js"></script>
+    
+    <title>Border Radius Previewer</title>
+</head>
+<body>
+    <div id="borderRadiusPreviewer">
+        <div id="box"></div>
+        <li>
+            <ul>Top-Left: <input id="top-left" type="number"></ul>
+            <ul>Top-Right: <input id="top-right" type="number"></ul>
+            <ul>Bottom-Right: <input id="bottom-right" type="number"></ul>
+            <ul>Bottom-Left: <input id="bottom-left" type="number"></ul>
+        </li>
+        
+        <button type="button" onclick="changeBorderProperties()">Preview</button>
+        <button type="button" onclick="createCSSAndCopyToClipboard()">Copy to Clipboard</button><p>CSSText <input id="cssText" type="text" size="50"></p>
+        <br>
+    </div>
+</body>
+</html>
