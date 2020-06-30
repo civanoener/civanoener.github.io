@@ -18,4 +18,38 @@ body {
   -webkit-box-sizing: content-box;
           box-sizing: content-box;
 }
+
+#display {
+  -ms-grid-column: 1;
+      grid-column-start: 1;
+  grid-column-end: 5;
+  border: solid;
+}
+
+#content {
+  margin: auto;
+}
+
+#cache {
+  font-size: 3vh;
+  text-align: right;
+  margin-right: 2vh;
+  -webkit-margin-before: 1vh;
+          margin-block-start: 1vh;
+  color: grey;
+}
+
+.grid-container {
+  margin: auto;
+  font-size: 10vh;
+  width: 5em;
+  height: 5em;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1px;
+  grid-auto-rows: minmax(1px, auto);
+  border: solid;
+}
 /*# sourceMappingURL=coding.css.map */
