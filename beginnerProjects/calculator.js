@@ -14,14 +14,15 @@ function addOperation(clicked_id) {
     cache.push(clicked_id);
     alert(cache);
     newValue = document.getElementById("cache").innerHTML + " " + document.getElementById("content").innerHTML + " " + clicked_id;
-    document.getElementById("cache").innerHTML = newValue 
+    document.getElementById("cache").innerHTML = cache.join(' ');
     document.getElementById("content").innerHTML = "";
-    currentValue = document.getElementById("content").innerHTML
+}
+
+function clearCache() {
+    cache.pop();
+    alert(cache);
 }
 
 function evaluate() {
     
 }
-
-// var fruits = ["Banana", "Orange", "Apple", "Mango"];
-// fruits.push("Lemon");    // adds a new element (Lemon) to fruits
